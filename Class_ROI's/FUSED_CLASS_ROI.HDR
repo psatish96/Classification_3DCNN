@@ -1,0 +1,31 @@
+ENVI
+description = {
+  Classification Image created from input ROIs [Sun Jul 27 09:32:03 2025]}
+samples = 1838
+lines   = 1702
+bands   = 1
+header offset = 0
+file type = ENVI Classification
+data type = 1
+interleave = bsq
+sensor type = Unknown
+classes = 12
+class lookup = {
+   0,   0,   0,   0, 139, 139,   0, 139,   0,   0,   0, 255,   0,   0,   0,
+ 255,   0, 255, 255, 255,   0,   0, 255, 255, 255,   0,   0, 176,  48,  96,
+   0, 238,   0, 205, 133,   0}
+class names = {
+ Unclassified, lake water [Cyan3] 514 points, 
+ vegetation [Green3] 2330 points, river water [Blue] 7550 points, 
+ asphalt [Black] 4583 points, bareground [Magenta] 1392 points, 
+ chinamosaic [Yellow] 2065 points, tinshed [Cyan] 1181 points, 
+ concrete [Red] 1372 points, mixed vegetation [Maroon] 1485 points, 
+ grass [Green1] 771 points, pond scum [Orange3] 554 points}
+byte order = 0
+x start = 594
+y start = 10
+map info = {UTM, 1.000, 1.000, 243452.156, 2555760.000, 1.0000000000e+001, 1.0000000000e+001, 43, North, WGS-84, units=Meters}
+coordinate system string = {PROJCS["UTM_Zone_43N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",75.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]}
+wavelength units = Unknown
+band names = {
+ Class Image from ROIs}
