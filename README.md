@@ -7,6 +7,8 @@ Key aspects of the project include:
   * **Objective:** To understand hyperspectral remote sensing, gain hands-on experience in data preprocessing, select regions of interest (ROI) and extract endmembers for spectral libraries, and classify urban materials in Ahmedabad using ML and DL models.
   * **Data:** PRISMA hyperspectral data were used, with three different datasets created: PRISMA resampled data, super-resolved data, and fused data (PRISMA fused with Sentinel-2 10m data).
   * **Methodology:** The process involved bad band removal, endmember selection, and classification using SAM and 3D CNN.
+   ![Workflow](https://github.com/user-attachments/assets/697501a4-d393-4fa4-93a1-f4135885d644)
+
   * **Results:** The study found that CNN (Convolutional Neural Networks) consistently outperformed SAM (Spectral Angular Mapper) in terms of classification accuracy, including Overall Accuracy (OA) and Kappa coefficient (K), across all three datasets. For instance, CNN achieved OA values ranging from 98.36% to 99.94%, while SAM's OA ranged from 72.91% to 78.81%.
   * **3D-CNN Results** 
     <img width="3507" height="2480" alt="Map_Fused_CNN" src="https://github.com/user-attachments/assets/991f9119-1d04-4e6f-aaa5-680d80afad7e" /> 3DCNN Fused Img
